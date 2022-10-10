@@ -25,6 +25,6 @@ let plant = {
 
 plant = reducer( plant, { type: 'ADD' })
 
-log(plant)
+log(plant)  // { name: 'yellow flower', price: 22, pot: 'cute green' }
 
 // Let's update more complex data
